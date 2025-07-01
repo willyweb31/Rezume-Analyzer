@@ -1,0 +1,38 @@
+/* Techy gradient background */
+.tech-bg {
+  background: linear-gradient(135deg, #232526 0%, #5f4bb6 100%);
+  min-height: 100vh;
+}
+
+/* Card shadow and border */
+.card {
+  border: none;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+  border-radius: 1.5rem;
+}
+
+/* Gradient button */
+.btn-gradient {
+  background: linear-gradient(90deg, #5f4bb6 0%, #36d1c4 100%);
+  color: #fff;
+  border: none;
+  border-radius: 2rem;
+  transition: background 0.3s, box-shadow 0.3s;
+  box-shadow: 0 2px 8px rgba(95, 75, 182, 0.15);
+}
+.btn-gradient:hover, .btn-gradient:focus {
+  background: linear-gradient(90deg, #36d1c4 0%, #5f4bb6 100%);
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(54, 209, 196, 0.18);
+}
+
+/* Form label color */
+.form-label {
+  color: #5f4bb6 !important;
+}
+
+/* Input focus */
+.form-control:focus {
+  border-color: #36d1c4;
+  box-shadow: 0 0 0 0.2rem rgba(54, 209, 196, 0.15);
+}
