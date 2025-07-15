@@ -35,26 +35,6 @@ Resume-Analyzer/
     └── style.css
 ```
 
-## Setup Instructions
-1. **Clone the repository**
-2. **Create and activate a virtual environment**
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate
-   ```
-3. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. **Set up your OpenAI API key**
-   - Create a `.env` file in the project root:
-     ```env
-     OPENAI_API_KEY=your_openai_api_key_here
-     ```
-5. **Run the app**
-   ```bash
-   flask run
-   ```
 
 ## Notes
 - Ensure your `.env` file is not committed to version control.
